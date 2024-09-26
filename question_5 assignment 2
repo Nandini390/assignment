@@ -3,7 +3,7 @@ class base{
         System.out.println("i am base class constructor");
     }
 }
-class child{
+class child extends base{
     child(){
         System.out.println("i am a child class constructor");
     }
